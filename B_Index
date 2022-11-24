@@ -1,0 +1,30 @@
+Recored Karyoke  #Kary
+
+Convert Karyoke audio into transcript  #Vosk   transcript under; person > Song > Kary.Json
+
+Create bst.json
+
+Create list of words not already downloaded   
+
+Search list of YT urls for each not already downloaded word 
+
+Download words not already downloaded and 
+
+run newly downloaded words through vosk 
+
+make bst.json  -/ -/ Manual check 
+
+Download missing words again _ words that transcriptions didn't work _ new filmot word 
+
+transcribe words again
+
+-/ -/ Manual check
+
+conbine audio -/ -/ Manual check for bad sounding words
+
+conbine video
+
+conbine audio and video and export final result
+
+-/ -/ Manual improvement with adobe audition 
+

@@ -1,0 +1,18 @@
+Mc_ play each word and return good / bad 
+play other already downloaded and transcripted instances of the word. Return good / bad
+- if good add 1.1:conf to transcript.json 
+- if all bad do next
+
+Loop: 
+    download all needed w/ filmot -ik logic behind it (one download for each word)
+    Mc_ play each word and return good / bad 
+    MC use mp3towav logic to fix location errors.
+
+
+if filmot download DNE
+
+- search transcripted_audio file for instances of words. play and return good / bad
+if good, use 2mp3towav logic to Manualy fix it
+- if all bad do next
+
+MC search transcript. 

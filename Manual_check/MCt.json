@@ -1,0 +1,44 @@
+[
+  {
+    "conf": 1.0,
+    "end": 0.78,
+    "start": 0.75,
+    "word": "a",
+    "Audio_File": "14give.wav"
+  },
+  {
+    "conf": 0.992446,
+    "end": 2.19,
+    "start": 2.04,
+    "word": "good",
+    "Audio_File": "5good.wav"
+  },
+  {
+    "conf": 0.995989,
+    "end": 1.74,
+    "start": 1.399779,
+    "word": "she",
+    "Audio_File": "8she.wav"
+  },
+  {
+    "conf": 1.0,
+    "end": 3.03,
+    "start": 2.76,
+    "word": "should",
+    "Audio_File": "17should.wav"
+  },
+  {
+    "conf": 1.0,
+    "end": 0.66,
+    "start": 0.508292,
+    "word": "give",
+    "Audio_File": "14give.wav"
+  },
+  {
+    "conf": 1.0,
+    "end": 2.31,
+    "start": 2.07,
+    "word": "her",
+    "Audio_File": "15her.wav"
+  }
+]
