@@ -7,8 +7,8 @@ import Download_wFilmot
 
 if __name__ == "__main__":
     #VPN, BASE, py38
-    person = 'Template_copy' #e.g "Linus"
-    song = 'song'   #e.g "Mr. Spaceman"
+    person = '' #e.g "Linus"
+    song = ''   #e.g "Mr. Spaceman"
     Channel_id = 'UCsXVk37bltHxD1rDPwtNM8Q'
     
 
