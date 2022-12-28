@@ -49,7 +49,6 @@ data2 = json.load(f2)
 # def speed_change(mp4_file, speed):
 #     pass
 
-
 def add_word_to_complete_Video():
     # time.sleep(1)
     global final_vid
@@ -74,13 +73,11 @@ def add_word_to_complete_Video():
     # if '_16' in best_data['Audio_File']:
     #     mp4_file = best_data['Audio_File'][:-7]+'.mp4'
     # clip1 = VideoFileClip('/Users/joaquinboyd/Downloads/python/lPhrase_video/' + mp4_file).subclip(best_data['start'], best_data['end'])
-
     mp4_file = best_data['Audio_File'][:-3]+'mp4'
     clip1 = VideoFileClip(video_folder_path + mp4_file).subclip(best_data['start'], best_data['end'])
     print('pos: ', pos)
     clip1 = clip1.set_start(pos)
     # clip1 / x = duration// x = clip1/duration
-
     clipdur = clip1.duration
     multi_pi = clipdur / duration #duration = next_clip['start'] - data['start']
     if not multi_pi < 0.3:
@@ -89,8 +86,6 @@ def add_word_to_complete_Video():
     final_list.append(clip1)
     # final_vid = CompositeVideoClip([final_vid, clip1])
     # complete_audio = complete_audio.overlay(sound2, position=pos*1000) #--nedd
-
-
 with open(Bst_json_path, 'r') as f:
     ff = json.load(f)
     n = len(ff)
@@ -99,13 +94,8 @@ for x in range(n):  #normaly n
     add_word_to_complete_Video()
 # next_clip = data['result'][0]
 # print(type(next_clip), type(data['result']))
-
 # duration = next_clip['start'] - data['result']['start']
-
-
 # final_vid.preview()
-
-
 # print(happy_list)
 final_vid = CompositeVideoClip(final_list)
 final_vid.write_videofile("test_un_million2.mp4") 

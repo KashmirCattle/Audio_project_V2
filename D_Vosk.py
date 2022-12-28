@@ -92,4 +92,4 @@ def run_folder(folder_path, transcript_json, new_folder_path):
 
 #WARNING: RUNING CODING IN FILE WILL AFFECT IMPORTS
 if __name__ == "__main__":
-    run_single_file('/Users/joaquinboyd/Desktop/Audio_Junk/For_sure_abs.wav', 'Ocean_man.wav', '/Users/joaquinboyd/Coding/python/Audio_Project/_People_/Tom_Scott/Transcribe.json')
+    run_single_file('/Users/joaquinboyd/Desktop/Test_9.wav', 'Ocean_man.wav', '/Users/joaquinboyd/Coding/python/Audio_Project/_People_/Tom_Scott/Transcribe.json')

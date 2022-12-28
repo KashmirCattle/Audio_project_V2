@@ -9,7 +9,7 @@ if __name__ == "__main__":
     #VPN, BASE, py38
     person = '' #e.g "Linus"
     song = ''   #e.g "Mr. Spaceman"
-    Channel_id = 'UCsXVk37bltHxD1rDPwtNM8Q'
+    Channel_id = 'UCBa659QWEk1AI4Tg--mrJ2A'
     
 
     Kary_audio_path = '/Users/joaquinboyd/Coding/python/Audio_Project/_People_/'+person+'/'+song+'/kary_audio.wav'
@@ -36,11 +36,11 @@ input("check __name__ info")
 
 # Convert Karyoke audio into transcript  Vosk   transcript under; person > Song > Kary.Json
 
+D_Vosk.run_single_file(Kary_audio_path, 'kary.wav', kary_json_path)
 
-
+input('check kary')
 # D_Vosk.run_single_file(Kary_audio_path, 'kary_audio.wav', kary_json_path) # _/
 Create_bst.initial_bst_add(kary_json_path, Bst_json_path, General_transcript_json) # _/
-
 
 for attempt in range(4):
     Download_wFilmot.run(audio_folder_path, video_folder_path, Bst_json_path, Channel_id, not_transcripted_folder_path, attempt, over_write_path)

@@ -6,8 +6,8 @@ import time
 import librosa
 import soundfile
 
-person = 'Template_copy'
-song = 'Song'
+person = ''
+song = ''
 
 Bst_Json_file = '/Users/joaquinboyd/Coding/python/Audio_Project/_People_/'+person+'/'+song+'/Best.Json'
 Kary_Json_File = '/Users/joaquinboyd/Coding/python/Audio_Project/_People_/'+person+'/'+song+'/Kary.json'
